@@ -1,10 +1,10 @@
 # Telegram-Usernames-Checker
 Telegram Usernames Checker - is a controller for quickly checking a large number of nicknames in Telegram.
 
-# Language:
+# Language
     Python 3.10.4
     
-# Libraries:
+# Libraries
     1. requests
     2. datetime
     3. traceback
