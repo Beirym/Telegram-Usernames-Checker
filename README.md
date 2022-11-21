@@ -19,7 +19,7 @@ The idea of creation this program walked for me after appearence auction of nick
     
 # How it works
 
-This program takes user file contains nicknames, checking symbols in nickname, enter to t.me/username in order to check avaibility ( if nickname already busy, that in website don't will be HTML-element ( with class tgme_page_extra ) which contains nickname ). Next check it's checking for being on auction in Fragment.com ( if nicname don't being in auction, that website don't have seperate HTML-page for him ). If nickname passed all checks, that he insert to list contains checked words. After all words checks user will receive file with all availible nicknames.
+This program takes user file contains nicknames, checking symbols in nickname, enter to t.me/username in order to check avaibility ( if nickname already busy, that in website don't will be HTML-element ( with class tgme_page_extra ) which contains nickname ). Next check it's checking for being on auction in Fragment.com ( if nicname don't being in auction, that website don't have seperate HTML-page for him ). If nickname passed all checks, that he inserted to list contains checked words. After all words checks user will receive file with all availible nicknames.
     
 # Usage steps
     1. User create file and filling his words;
