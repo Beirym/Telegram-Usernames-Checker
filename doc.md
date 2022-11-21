@@ -3,9 +3,11 @@
 # check_usernames 
 
 words_array
+
     Accepts file name or python list
     
 usernames_output
+
     Accepts string "file" or "list"
     
 progress_bar
