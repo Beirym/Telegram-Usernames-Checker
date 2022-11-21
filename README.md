@@ -22,19 +22,22 @@ The idea of creation this program walked for me after appearence auction of nick
     
 # How it works
 
-This program takes user file contains nicknames, checking symbols in nickname, enter to t.me/username in order to check avaibility ( if nickname already busy, that in website don't will be HTML-element ( with class tgme_page_extra ) which contains nickname ). Next check it's checking for being on auction in Fragment.com ( if nicname don't being in auction, that website don't have seperate HTML-page for him ). If nickname passed all checks, that he inserted to list contains checked words. After all words checks user will receive file with all availible nicknames.
+This program takes user file contains nicknames, checking symbols in nickname, enter to t.me/username in order to check avaibility ( if nickname already busy, that in website don't will be HTML-element ( with class tgme_page_extra ) which contains nickname ). Next check it's checking for being on auction in Fragment.com ( if nicname don't being in auction, that website don't have seperate HTML-page for him ). If nickname passed all checks, that he inserted to list contains checked words. After all words checks user will receive file or list with all availible nicknames.
     
 # Usage steps
-    1. User create file and filling his words;
-    2. User transmist file name to programm;
-    3. Program checks empty line for avability in the end of this file;
+    1. User select array contains words type ( file or list );
+    1.1 If user selected file - he create file and filling his words, then transmist to program;
+    1.2 If user selected list - he transmist words seperate by comms to program;
+    2. User select how will be returned availbility usernames ( file or list );
+    3. If was transmists file - program checks empty line for avability in the end of this file;
     4. Program checks this word ( AKA our future username ) for avaibility in Telegram ( is he busy with other users );
     5. Program checks this word for being on sale in Fragment.com;
-    6. Avaibility usernames saved in new file with title - avail_usernames_[Hours-Minutes_(Year-Month-Day)].
+    6. If usernames output is file - avaibility usernames saved in new file with title - avail_usernames_[Hours-Minutes_(Year-Month-Day)]
+       If is list - availbility usernames will be returned how python list.
 	
 # Disadvanatges
 
-	The program cannot check the nickname reserved by Telegram itself (these are nicknames when trying to use which Telegram gives an error - "Ivalid link")
+The program cannot check the nickname reserved by Telegram itself (these are nicknames when trying to use which Telegram gives an error - "Ivalid link")
 
 # Important
 
