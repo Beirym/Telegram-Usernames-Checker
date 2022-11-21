@@ -35,3 +35,9 @@ This program takes user file contains nicknames, checking symbols in nickname, e
 # Disadvanatges
 
 	The program cannot check the nickname reserved by Telegram itself (these are nicknames when trying to use which Telegram gives an error - "Ivalid link")
+
+# Important
+
+It's fun programm, which is not used in real projects.
+	
+	
