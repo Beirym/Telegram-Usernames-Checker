@@ -4,6 +4,9 @@ Telegram Usernames Checker - is a controller for quickly checking a large number
 # Language
     Python 3.10.4
     
+# Instalation
+    pip install telegram-usernames-checker
+    
 # Libraries
     1. requests
     2. datetime
