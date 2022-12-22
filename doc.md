@@ -24,7 +24,7 @@
 
 ### Example
 ```python
-from telegram_usernames_checker import check_usernames.check_usernames
+from  telegram_usernames_checker.telegram_usernames_checker import check_usernames
 
 availibale_usernames = check_usernames(words_array=['Beirym', 'durov', 'unique_username'], usernames_output='list')
 
